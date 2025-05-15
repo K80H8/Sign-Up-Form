@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main {
+    display: flex;
+}
+.image-container{
+    width: 50%;
+    height: 100%;
+}
+.image-container img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    right: 0;
+}
+
+.right-container {
+    display: flex;
+    align-items: left;
+    justify-content: top;
+    flex-direction: column;
+    left: 0;
+    width: 50%;
+
+}
+
+form {
+    margin: 20px;
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+header {
+    margin: 30px;
+    font-size: 22px;
+    font-style: ;
+}
+
+
+
+div.name, div.contact-info, div.password, div.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 10px;
+
+}
+
+span {
+    margin: 18px;
+}
+
+label, input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font: 12px;
+    width: 95%
+}
+
+div.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    background-color: rgb(115, 239, 140);
+    font-size: 900;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+div.account {
+    margin: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-size: 15px;
+}
+
+label {
+    font-size: 16px;
+}
